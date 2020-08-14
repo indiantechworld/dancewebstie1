@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    margin: 0 14px;
+    margin-right: 40px;
+
+}
+
+#logo img{
+    height: 60px;
+    /* filter: invert(1); */
+    margin-left: 150px;
+}
+
+
+#navbar{
+    background-color: rgb(234, 21, 21);
+    padding: 13px 14px;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;  /*it will do vertically center*/
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 13px 22px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+#navbar li a:hover{
+    color: black;
+    background-color:yellow
+}
+
+#introSection{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    background: center / cover no-repeat url("/static/dance-1.jpg");
+    height: 550px;
+    background-color:red;
+    -webkit-text-stroke: 3px white;
+}
+
+#introSection div.small{
+    font-size: 60px;
+    }
+
+#missionSection{
+    height: 310px;
+    width: 67%;
+    margin: auto;
+}
+
+#missionSection h2{
+    text-align: center;
+    /* color:white; */
+    padding-top: 15px;
+    font-size: 30px; 
+    /* letter-spacing: 1.5px; */
+}
+
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 15px;
+    height: 200px;
+}
+
+.card h3{
+    text-align: center;
+    margin: 10px 12px;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 180px;
+    padding: 0 14px;
+    margin: -22px -29px;
+}
+
+.card-img img{
+    height: inherit;
+}
+
+#sponsorSection{
+    height: 300px;
+    background-color:rgb(12, 39, 15);
+}
+
+#sponsorSection h2{
+    text-align: center;
+    color:white;
+    padding-top: 15px;
+    font-size: 30px; 
+    letter-spacing: 1.5px;
+}
+
+#sponsors{
+    height: 200px;
+    max-width: 800px;
+    margin: 9px auto;
+}
+
+.spImage{
+    height: 80%;
+    margin: 20px;
+}
+
+#footer{
+    display: flex;
+    color: white;
+    height: 40px;
+    background-color:rgb(234, 21, 21);;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+}

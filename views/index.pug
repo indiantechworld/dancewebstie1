@@ -1,0 +1,64 @@
+//- index.pug
+doctype html
+html
+  head 
+    title Welcome to World Class Dance Acadamy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul
+            div#logo
+                img(src="../static/img/lg.png")
+            li #[a(href="/") Home]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") About]
+            li #[a(href="/") Contact Us]
+
+    section#introSection
+        div Welcome to World Class Dance Acadamy
+        div.small Eat Sleep Dance Repeat
+
+    section#missionSection
+        h2 Our Mission
+
+        div.card
+            h3 Dance Perfection 
+            div.card-box
+                div.card-img
+                    img(src="../static/img/dance1.png", alt="Dance Perfection")
+                div.card-content
+                    p This is the best dance acadamy of the world.
+
+
+        div.card
+            h3 Dance the Way you like 
+            div.card-box
+                div.card-img
+                    img(src="../static/img/dance2.png", alt="Dance Perfection")
+                div.card-content
+                    p This is the best dance acadamy of the world.
+
+        div.card
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="../static/img/dance4.png", alt="Dance Perfection")
+                div.card-content
+                    p This is the best dance acadamy of the world.
+
+    section#sponsorSection
+        h2 Our Sponsors
+        div#sponsors
+            img(src="../static/img/logo2.jpg" alt="Sponsors Image" class="spImage")
+            img(src="../static/img/logo3.jpg" alt="Sponsors Image" class="spImage")
+            img(src="../static/img/logo4.jpg" alt="Sponsors Image" class="spImage")
+            img(src="../static/img/logo5.jpg" alt="Sponsors Image" class="spImage")
+
+    footer#footer
+        | Copyright © 2020-21 - All Rights Reserved By - World Class Dance Acadamy 
+
+
+    script
+      include ../static/index.js
